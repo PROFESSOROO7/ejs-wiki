@@ -5,7 +5,6 @@ In Express v4, a very basic setup using EJS would look like the following. (This
 ```javascript
 let express = require('express');
 let app = express();
-//It's possible to edit this
 
 app.set('view engine', 'ejs');
 
