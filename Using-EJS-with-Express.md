@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 app.listen(4000, () => console.log('Example app listening on port 4000!'));
 ```
 
-There are a number of way to pass specific configuration values to EJS from Express.
+There are a number of ways to pass specific configuration values to EJS from Express.
 
 ## View options
 
@@ -28,7 +28,7 @@ This method works for all options, even those which cannot be safely passed alon
 
 ## Custom render function
 
-This is somewhat less straightforward, but also works well -- completely override the render function:
+This is somewhat less straightforward, but also works well -- completely overrides the render function:
 
 ```javascript
 let ejsOptions = {delimiter: '?'};
