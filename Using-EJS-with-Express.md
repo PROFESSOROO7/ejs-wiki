@@ -1,5 +1,11 @@
 ## Basic setup
 
+First, install EJS:
+
+```sh
+npm install ejs
+```
+
 In Express v4, a very basic setup using EJS would look like the following. (This assumes a `views` directory containing an `index.ejs` page.
 
 ```javascript
