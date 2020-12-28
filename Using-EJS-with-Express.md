@@ -2,8 +2,14 @@
 
 First, install EJS:
 
+Using the package manager [`npm`](https://npmjs.com):
 ```sh
 npm install ejs
+```
+
+Or using the package manager [`yarn`](https://yarnpkg.com):
+```sh
+yarn add ejs
 ```
 
 In Express v4, a very basic setup using EJS would look like the following. (This assumes a `views` directory containing an `index.ejs` page.
